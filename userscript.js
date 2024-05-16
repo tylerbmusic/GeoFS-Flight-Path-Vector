@@ -10,7 +10,7 @@
 // ==/UserScript==
 
 // Notes
-// Pressing 'k' will hide the FPV
+// Pressing 'l' will hide the FPV
 // The FPV is calculated based on the camera's position. This means that the FPV shows where the camera would hit the ground if it were to keep going in the same direction, and not the aircraft.
 function cF(x, y, z) {
     return { x, y, z };

@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         GeoFS Flight Path Vector
-// @version      0.9
+// @version      1.0
 // @description  Displays a Flight Path Vector on the screen
 // @author       GGamerGGuy
 // @match        https://www.geo-fs.com/geofs.php?v=*
@@ -93,7 +93,6 @@ function main() {
                 }
 
                 flightDataElement.innerHTML = `
-                <span style="background: 0 0; border: none; border-radius: 2px; color: #000; display: inline-block; padding: 0 8px;">AGL ${agl}</span>
                 <span style="background: 0 0; border: none; border-radius: 2px; color: #000; display: inline-block; padding: 0 8px;">Glideslope ${glideslope}</span>
             `;
             }
